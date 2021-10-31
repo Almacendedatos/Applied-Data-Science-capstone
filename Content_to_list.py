@@ -3,7 +3,7 @@ import os
 
 # Request for data
 path = input(" directory path :")
-name = input(" Nome for the file :")
+name = input(" Name for the file :")
 
 completeName = os.path.join(path, name+".txt")   
 
